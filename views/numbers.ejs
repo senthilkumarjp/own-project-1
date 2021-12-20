@@ -1,0 +1,11 @@
+<%- include('partials/head')%>
+<body>
+    <%- include('partials/navbar')%>
+    <h1>First five numbers</h1>
+   <ul>
+    <% for(let number of numbers) { %>
+      <li><%=number%></li>
+    <% } %>
+   </ul>
+</body>
+</html>

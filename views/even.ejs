@@ -1,0 +1,13 @@
+<%- include('partials/head')%>
+<body>
+    <%- include('partials/navbar')%>
+    <h1>Every time you refresh the page the different number is displayed.and then that number is odd or even displayed in every  time you refreshed. </h1>
+    <h1>Your number is :-<%=num%></h1>
+    <%if(num%2 ===0)  {%> 
+        <h2>This is :-even</h2>
+        <% } else {%>
+            <h2>This is :-odd</h2>
+            <% } %> 
+    
+</body>
+</html>
